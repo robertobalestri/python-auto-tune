@@ -1,0 +1,23 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Run main.py",
+            "type": "shell",
+            "command": "python",
+            "args": [
+                "${workspaceFolder}/main.py",
+                "input_video.mp4",
+                "--plot",
+                "--correction-method", "scale",
+                "--scale", "C:maj"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": [],
+            "detail": "Run the main.py script"
+        }
+    ]
+}

@@ -1,0 +1,30 @@
+{
+    "video_file": "input_video.mp4",
+    "plot": false,
+    "correction_method": "scale",
+    "scale": "A:min",
+    "spread_factor": 1.5,
+    "background_music_path": "background_music.wav",
+    "vocals_volume": 0.8,
+    "music_volume": 1.0,
+    "other_volume": 1.0,
+    "ducking_ratio": 1.5,
+    "ducking_threshold": 0.015,
+    "compression": {
+        "threshold_db": -20,
+        "ratio": 4,
+        "attack_ms": 10,
+        "release_ms": 100
+    },
+    "reverb": {
+        "room_size": 0.3,
+        "damping": 0.3,
+        "wet_level": 0.3,
+        "dry_level": 0.7
+    },
+    "delay": {
+        "delay_time": 0.5,
+        "feedback": 0.3,
+        "wet_level": 0.1
+    }
+}

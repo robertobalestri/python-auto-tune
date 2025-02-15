@@ -4,3 +4,8 @@ matplotlib
 soundfile
 scipy
 psola
+speechbrain
+demucs
+torch
+torchaudio
+pedalboard
